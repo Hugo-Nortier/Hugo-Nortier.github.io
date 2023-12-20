@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV Hugo Nortier</title>
+  <link href="../css/font-awesome/css/all.min.css" rel="stylesheet">
+  <link href="../css/mdb.min.css" rel="stylesheet">
+  <link href="../css/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-light" id="top">
+  <header class="d-print-none">
+    <div class="container text-center text-lg-left">
+      <div class="pt-4 clearfix">
+        <h1 class="site-title mb-0">Hugo Nortier</h1>
+        <div class="site-nav">
+          <nav role="navigation">
+            <ul class="nav justify-content-center">
+              <li class="nav-item"><a class="nav-link" href="#about" title="À propos"><span class="menu-title">À
+                    propos</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#skills" title="Compétences"><span
+                    class="menu-title">Compétences</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#experience" title="Expérience"><span
+                    class="menu-title">Expérience</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#education" title="Formation"><span
+                    class="menu-title">Formation</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#portfolio" title="Portfolio"><span
+                    class="menu-title">Portfolio</span></a>
+              </li>
+              <div class="dropdown nav-item ">
+                <a class="nav-link px-3 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                  data-mdb-toggle="dropdown" aria-expanded="false">
+                  <i class="flag-france flag m-0"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="/fr/"><i class="flag-france flag"></i>Français<i
+                        class="fa fa-check text-success ms-2"></i></a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/"><i class="flag-united-kingdom flag"></i>English</a>
+                  </li>
+                </ul>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="page-content">
+    <div class="container">
+      <div class="resume-container">
+        <div class="shadow-1-strong bg-white my-5" id="intro">
+          <div class="bg-info text-white">
+            <div class="cover bg-image"><img src="../images/bg.jpg" />
+              <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);backdrop-filter: blur(2px);">
+                <div class="text-center p-5">
+                  <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="../images/cv.png" width="200"
+                      height="200" /></div>
+                  <div class="header-bio mt-3">
+                    <div data-aos="zoom-in" data-aos-delay="0">
+                      <h2 class="h1">Hugo Nortier</h2>
+                      <p>Software Real Time & Embedded Engineer</p>
+                    </div>
+                    <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
+                      <nav role="navigation">
+                        <ul class="nav justify-content-center">
+                          <li class="nav-item"><a class="nav-link" href="https://fr.linkedin.com/in/hugo-nortier"
+                              title="Linkedin"><i class="fab fa-linkedin"></i><span
+                                class="menu-title sr-only">Linkedin</span></a>
+                          </li>
+                          <li class="nav-item"><a class="nav-link" href="mailto:nortier.hugo06@gmail.com"
+                              title="Mail"><i class="fas fa-envelope"></i><span
+                                class="menu-title sr-only">Mail</span></a>
+                          </li>
+                          <li class="nav-item"><a class="nav-link" href="https://github.com/Hugo-Nortier"
+                              title="Github"><i class="fab fa-github"></i><span
+                                class="menu-title sr-only">Github</span></a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                    <div class="d-print-none"><a class="btn btn-outline-light btn-lg shadow-sm"
+                        href="../Hugo_Nortier_CV.pdf" data-aos="fade-right" data-aos-delay="700"><i
+                          class="fas fa-download mr-1"></i> Télécharger mon CV</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-1-strong bg-white my-5 p-5" id="about">
+          <div class="about-section">
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="h2 fw-light mb-4">À propos de moi</h2>
+                <div class="text-justify">
+                  <p>Bonjour! Je suis Hugo NORTIER, un développeur junior diplômé d'un Master 2 MIAGE MBDS (Mobiquité,
+                    Big Data et intégration de Systèmes).
+                    <br />J'aime particulièrement la logique algorithmique ainsi que le développement JavaScript.
+                  </p>
+                  <p>Actuellement, je suis embauché en tant que développeur IHM à Thales Defense Mission System,
+                    Je me plais à développer mes compétences et à servir le secteur de la défense.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-5 offset-lg-1">
+                <div class="row mt-2">
+                  <h2 class="h2 fw-light mb-4">Bio</h2>
+                  <div class="col-sm-5">
+                    <div class="pb-2 fw-bolder"><i class="far fa-calendar-alt pe-2 text-muted"
+                        style="width:24px;opacity:0.85;"></i> Âge</div>
+                  </div>
+                  <div class="col-sm-7">
+                    <div class="pb-2"><span id="age"></span></div>
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted"
+                        style="width:24px;opacity:0.85;"></i> Email</div>
+                  </div>
+                  <div class="col-sm-7">
+                    <div class="pb-2">nortier.hugo06@gmail.com</div>
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="pb-2 fw-bolder"><i class="fas fa-map-marker-alt pe-2 text-muted"
+                        style="width:24px;opacity:0.85;"></i> Adresse</div>
+                  </div>
+                  <div class="col-sm-7">
+                    <div class="pb-2">06560 Sophia Antipolis, France</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
+          <div class="skills-section">
+            <h2 class="h2 fw-light mb-4">Compétences</h2>
+            <div class="row">
+              <div class="col">
+                <div class="mb-3 fw-bolder">Langage de programmation</div>
+                <div>JavaScript / TypeScript</div>
+                <div>HTML / CSS</div>
+                <div>PHP</div>
+                <div>Java</div>
+              </div>
+              <div class="col">
+                <div class="mb-3 fw-bolder">Framework & Bibliothèques</div>
+                <div>React</div>
+                <div>Three.js</div>
+                <div>Express.js</div>
+                <div>Vue.js</div>
+                <div>Spring Boot</div>
+                <div>Groovy on Rails</div>
+                <div>Redux</div>
+                <div>Electron</div>
+              </div>
+              <div class="col">
+                <div class="mb-3 fw-bolder">Base de données</div>
+                <div>Oracle DB</div>
+                <div>MySQL</div>
+                <div>PostgreSQL</div>
+                <div>Microsoft SQL Server</div>
+                <div>Microsoft Access</div>
+                <div class="border-bottom">MariaDB</div>
+                <div>Elasticsearch</div>
+                <div>MongoDB</div>
+                <div>Cassandra</div>
+                <div>Amazon DynamoDB</div>
+              </div>
+              <div class="col">
+                <div class="mb-3 fw-bolder">Déploiement</div>
+                <div>AWS</div>
+                <div>Docker</div>
+                <div>Nginx</div>
+                <div>Apache</div>
+                <div class="my-3 fw-bolder">Autre</div>
+                <div>Kafka</div>
+                <div>Talend Open Studio ETL</div>
+                <div>ELK</div>
+                <div>Grafana</div>
+              </div>
+
+            </div>
+          </div>
+          <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
+            <div class="work-experience-section">
+              <h2 class="h2 fw-light mb-4">Expériences professionnelles</h2>
+              <div class="timeline">
+                <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
+                  <div class="timeline-head px-4 pt-3">
+                    <div class="h5">Junior ingénieur IHM<span class="text-muted h6">à Thales DMS</span></div>
+                  </div>
+                  <div class="timeline-body px-4 pb-4">
+                    <div class="text-muted text-small mb-3">Oct, 2023 - aujourd'hui</div>
+                    <div>Développement en méthodologie Agile d'une IHM en React Typescript
+                      et SpringBoot au sein du secteur SST (Sous-Marins, Bâtiments de
+                      surface et Torpilles) de Thales Defense Mission System.</div>
+                  </div>
+                </div>
+                <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
+                  <div class="timeline-head px-4 pt-3">
+                    <div class="h5">Ingénieur alternant <span class="text-muted h6">à Thales DMS</span></div>
+                  </div>
+                  <div class="timeline-body px-4 pb-4">
+                    <div class="text-muted text-small mb-3">Nov, 2022 - Sep, 2023</div>
+                    <div>Formation d'ingénieur logiciel en alternance au sein du secteur SST.</div>
+                  </div>
+                </div>
+                <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="400">
+                  <div class="timeline-head px-4 pt-3">
+                    <div class="h5">Ingénieur alternant <span class="text-muted h6">à Docaposte BPO</span></div>
+                  </div>
+                  <div class="timeline-body px-4 pb-4">
+                    <div class="text-muted text-small mb-3">Oct, 2021 - Nov, 2022</div>
+                    <div>Formation d'ingénieur logiciel en alternance dans l'équipe de
+                      myGreffe (logiciel pour greffiers de tribunaux de commerce).
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="600">
+                  <div class="timeline-head px-4 pt-3">
+                    <div class="h5">Stagiaire <span class="text-muted h6">à SARL Euro TP</span></div>
+                  </div>
+                  <div class="timeline-body px-4 pb-4">
+                    <div class="text-muted text-small mb-3">Mai, 2021 - Aoû, 2021</div>
+                    <div>Création d'un site web vitrine (eurotp.fr) et création d'un service de
+                      suivi de chantier en PHP avec BD MySQL et remontée d'alerte via tâche
+                      Cron.
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="800">
+                  <div class="timeline-head px-4 pt-3">
+                    <div class="h5">Stagiaire <span class="text-muted h6">à Odealim</span></div>
+                  </div>
+                  <div class="timeline-body px-4 pb-4">
+                    <div class="text-muted text-small mb-3">Avr, 2020 - Jul, 2020</div>
+                    <div>Refonte + création de sites web et développement d'un intranet pour
+                      Odealim, courtiers d'assurance.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-1-strong bg-white my-5 p-5" id="education">
+            <div class="education-section">
+              <h2 class="h2 fw-light mb-4">Formation</h2>
+              <div class="timeline">
+                <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
+                  <div class="timeline-head px-4 pt-3">
+                    <div class="h5">Master 2 MBDS (Mobiquity, Big Data and Systems Integration) <span
+                        class="text-muted h6">à l'Université Côte d'Azur</span> </div>
+                  </div>
+                  <div class="timeline-body px-4 pb-4">
+                    <div class="text-muted text-small mb-3">2021 - 2023</div>
+                    <div>Le Masster MIAGE MBDS executive permet de développer des connaissances et des compétences en
+                      Javascript,
+                      bases de données, machine learning et Hadoop entre autres.
+                      <br />Il permet aux étudiants de devenir des développeur web et mobile dans un contexte de big
+                      data.
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
+                  <div class="timeline-head px-4 pt-3">
+                    <div class="h5">Licence 3 MIAGE <span class="text-muted h6">à l'Université Côte d'Azur</span></div>
+                  </div>
+                  <div class="timeline-body px-4 pb-4">
+                    <div class="text-muted text-small mb-3">2020 - 2021</div>
+                    <div>Formation solide en informatique et former des futurs professionnels de la conduite de projets
+                      dans les organisations, en informatique décisionnelle et recherche opérationnelle.</div>
+                  </div>
+                </div>
+                <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="400">
+                  <div class="timeline-head px-4 pt-3">
+                    <div class="h5">DUT Informatique<span class="text-muted h6">à l'Université Côte d'Azur</span>
+                    </div>
+                  </div>
+                  <div class="timeline-body px-4 pb-4">
+                    <div class="text-muted text-small mb-3">2018 - 2020</div>
+                    <div>Le DUT vise à former des informaticiens capables de participer à la conception, la réalisation
+                      et la mise en œuvre de solutions informatiques correspondantes aux besoins des utilisateurs.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="portfolio">
+            <div class="portfolio-section">
+              <h2 class="h2 fw-light mb-4">Portfolio</h2>
+              <div class="row g-0">
+                <div class="col-md-6"><a href="https://github.com/Hugo-Nortier/NDFapp" target="_blank"><img
+                      class="img-fluid" src="../images/ndf.png" width="800" height="410" /></a></div>
+                <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                  <div class="m-4 mt-md-2">
+                    <p class="text-teal text-small">React / Node.js / Express.js / MongoDB / Kotlin / Python</p>
+                    <h3>Application de Note de frais</h3>
+                    <p class="text-muted">Développement d'une application de note de frais avec OCR,
+                      site-web et application mobile.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row g-0 portfolio-reverse">
+                <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                  <div class="m-4 mt-md-2 text-end">
+                    <p class="text-teal text-small">React / Node.js / Express.js / MongoDB / Docker</p>
+                    <h3>Pixel Wars</h3>
+                    <p class="text-muted">Développement d'un « pixel wars » en React et Express.js
+                      Dockerization. Utilisation de MongoDB.
+                      <br />Une démo est disponible <a href="https://youtu.be/JYzgqnZaO_s">ici</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6"><a href="https://github.com/Hugo-Nortier/pixerArt" target="_blank"><img
+                      class="img-fluid" src="../images/pixelwars.png" width="800" height="410" /></a></div>
+              </div>
+              <div class="row g-0">
+                <div class="col-md-6"><a href="https://github.com/Hugo-Nortier/tpa-groupe2" target="_blank"><img
+                      class="img-fluid" src="../images/tpa.png" width="800" height="410" /></a></div>
+                <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                  <div class="m-4 mt-md-2">
+                    <p class="text-teal text-small">Hadoop / R / ETL / Python / JavaScript</p>
+                    <h3>Projet Analyse Big Data</h3>
+                    <p class="text-muted">Analyse de la Clientèle d'un
+                      Concessionnaire Automobile pour la Recommandation de
+                      Modèles de Véhicules.
+                      <br />Une démo est disponible <a href="https://youtu.be/SXxjEn7NhKY">ici</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row g-0 portfolio-reverse">
+                <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                  <div class="m-4 mt-md-2 text-end">
+                    <p class="text-teal text-small">JavaScript</p>
+                    <h3>Space-invader, Snake, Candy crush</h3>
+                    <p class="text-muted">Développement de mini-jeux (Space-invader, Snake, Candy
+                      crush) en JavaScript et en utilisant des canvas. <br />Une démo est disponible <a
+                        href="https://youtu.be/OyXJZ1aP-3E">ici</a></p>
+                  </div>
+                </div>
+                <div class="col-md-6"><a href="https://github.com/Hugo-Nortier/mini-jeux-JS" target="_blank"><img
+                      class="img-fluid" src="../images/hysi.png" width="800" height="410" /></a></div>
+              </div>
+              <div class="row g-0">
+                <div class="col-md-6"><a href="https://github.com/Hugo-Nortier/spring-ecommerce" target="_blank"><img
+                      class="img-fluid" src="../images/ecommerce.png" width="800" height="410" /></a></div>
+                <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                  <div class="m-4 mt-md-2">
+                    <p class="text-teal text-small">SpringBoot / Java / REST / JPA / h2</p>
+                    <h3>e-Commerce</h3>
+                    <p class="text-muted">Une plateforme eCommerce en SpringBoot pour démontrer l'utilisation de microservice.</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row g-0 portfolio-reverse">
+                <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                  <div class="m-4 mt-md-2 text-end">
+                    <p class="text-teal text-small">Groovy / Grails / REST</p>
+                    <h3>Lecoincoin</h3>
+                    <p class="text-muted">Création de "lecoincoin", un simulacre de leboncoin, l'application de petites annonces.</p>
+                  </div>
+                </div>
+                <div class="col-md-6"><a href="https://github.com/Hugo-Nortier/grails-lecoincoin" target="_blank"><img
+                      class="img-fluid" src="../images/lcc.png" width="800" height="410" /></a></div>
+              </div>
+              <div class="row g-0">
+                <div class="col-md-6"><a href="https://github.com/Hugo-Nortier/Restaurants" target="_blank"><img
+                      class="img-fluid" src="../images/restau.png" width="800" height="410" /></a></div>
+                <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                  <div class="m-4 mt-md-2">
+                    <p class="text-teal text-small">JavaScript / VueJS / Node.js / Express.js</p>
+                    <h3>Restaurants VueJS</h3>
+                    <p class="text-muted">Un site web de tri de restaurants et d'affichage de menus obtenus au travers d'une API.
+                      <br />Une démo est disponible <a href="https://youtu.be/je9jkvKMlQA">ici</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+      <div class="container">
+        <div class="my-3">
+          <div class="h4">Hugo Nortier</div>
+          <div class="footer-nav">
+            <nav role="navigation">
+              <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="https://fr.linkedin.com/in/hugo-nortier"
+                    title="Linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">Linkedin</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="mailto:nortier.hugo06@gmail.com" title="Mail"><i
+                      class="fas fa-envelope"></i><span class="menu-title sr-only">Mail</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="https://github.com/Hugo-Nortier" title="Github"><i
+                      class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../scripts/mdb.min.js?ver=1.2.1"></script>
+    <script src="../scripts/aos.js?ver=1.2.1"></script>
+    <script src="../scripts/main.js?ver=1.2.1"></script>
+    <script>
+      AOS.init({ anchorPlacement: 'top-left', duration: 1000 });
+      document.addEventListener('DOMContentLoaded', function () {
+        var dateOfBirth = new Date('2000-05-11');
+        var age = new Date().getFullYear() - dateOfBirth.getFullYear();
+        document.getElementById('age').innerText = age;
+      });
+    </script>
+</body>
+
+</html>
